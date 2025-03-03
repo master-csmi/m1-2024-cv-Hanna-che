@@ -14,7 +14,7 @@ Please note:
 toc::[]
 
 
-TIP: you can preview this README in VSCode using the **AsciiDoctor** VSCode extension and click the preview button on the top right of the VSCode window once the extension is installed image:vscode-asciidoc-preview.png[inline]. The extension is automatically recommended when you open the project in VSCode.
+TIP: you can preview this README in VSCode using the **AsciiDoctor** VSCode extension and click the preview button on the top right of the VSCode window once the extension is installed image:images/vscode-asciidoc-preview.png[inline]. The extension is automatically recommended when you open the project in VSCode.
 
 == Getting Started
 

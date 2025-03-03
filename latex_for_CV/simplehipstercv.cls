@@ -336,4 +336,4 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 
-\usepackage{simplehipstercv}
+\usepackage{latex_for_CV/simplehipstercv}
