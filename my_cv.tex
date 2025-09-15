@@ -1,4 +1,7 @@
-% Compétences du master: Modélisation, simulatin, optimisation, calcul haute perforamnce, (traitement) data signaux sons et images, machine learning et apprentissage
+% Compétences du master:  double compétence en mathématiques et informatique
+% EDP avec Modélisation, simulatin, optimisation, calcul haute perforamnce, (traitement) data signaux sons et images, machine learning et apprentissage
+%ya aussi incertitudes, ROM, Prétraitement et post-traitement, gestion des projets
+
 % Mettre en avant très clairement les compétences car pas vraiment d'expérience
 % C++, pyhton etc pas de barre mais volume horaire -> temps passé sur l'environnement
 
@@ -22,14 +25,14 @@
 \usepackage{fontawesome}
 % \definecolor{darkcyan}{rgb}{0, 0.4, 0.78} 
 \definecolor{red4}{rgb}{0.5, 0.1, 0} 
-\definecolor{red3}{rgb}{0.7, 0.1, 0.1}
-\definecolor{red2}{rgb}{0.85, 0.3, 0.2}
-\definecolor{red1}{rgb}{0.9, 0.4, 0.3}
-
+\definecolor{red3}{rgb}{0.85, 0.25, 0.2}
+\definecolor{red2}{rgb}{0.95, 0.43, 0.35}
+\definecolor{red1}{rgb}{1, 0.6, 0.45}
 
 
 \definecolor{cvblue}{HTML}{003366}
 
+\usepackage{changepage}
 
 %------------------------------------------------------------------ Variablen
 
@@ -51,7 +54,7 @@
 %-------------------------------------------------------------
 
 \section*{Start}
-
+\vspace{-0.5cm}
 \simpleheader{headercolour}{Hanna}{CHETOUANE}{Master's student in Applied Mathematics - Scientific Computing and Mathematics of Information}{white}
 
 
@@ -75,14 +78,20 @@
 
 \footnotesize
 {\setasidefontcolour
-\flushright
 \begin{center}
     \roundpic{images/me.jpg}
 \end{center}
 
+\vspace{-0.8cm}
+\begin{adjustwidth}{-0.3cm}{-0.3cm}
+\begin{flushright}
+{\textbf{\color{gray!130} I am currently a Master's 2 student in Scientific Computing and Information Mathematics, and I am interested in the mathematical modeling of physical phenomena. My Master's 1 internship allowed me to discover this field in more detail and made me curious and motivated to explore its various opportunities.}}
+\end{flushright}
+\end{adjustwidth}
+
 \bigskip
 
-
+\flushright
 \bg{cvblue}{white}{ About me } \\[0.5em]
 \vspace{0.5em}
 
@@ -96,7 +105,7 @@ Adress : 13 rue du Maennelstein \\ Strasbourg, France
 \bigskip
 
 
-\bg{cvblue}{white}{Skills} \\[0.5em]
+\bg{cvblue}{white}{Soft skills} \\[0.5em]
 \vspace{0.5em}
 
 ~•~ Good communication and teamwork skills \\
@@ -152,8 +161,8 @@ Adress : 13 rue du Maennelstein \\ Strasbourg, France
 
 \section*{Curriculum}
 \begin{tabular}{r| p{0.5\textwidth}}
-    2024--today & {\small \textbf{CSMI Master (Scientific Computing and Mathematics of Information)}} \newline {\textbf{\color{gray!140} University of Strasbourg}} \hspace{0.5em} \textcolor{cvred}{\faMapMarker} \newline { Advanced skills in statistics, mathematical modeling, numerical simulation, optimization, scientific computing, signal and image processing, as well as algorithms and high-performance computing (put into practice through projects and internships).} \\[8.5em]
-    2021--2024 & {\small \textbf{Bachelor of Applied Mathematics}} \newline {\textbf{\color{gray!140} University of Strasbourg}} \hspace{0.5em} \textcolor{cvred}{\faMapMarker} \newline { Fundamental bases in analysis (integration, function sequences and series), algebra, Fourier series, differential calculus, probability and statistics, as well as computer science.} \\  
+    2024--today & {\small \textbf{CSMI Master (Scientific Computing and Mathematics of Information)}} \newline \textit{{\textbf{\color{gray!130} University of Strasbourg}}} \hspace{0.5em} \textcolor{cvred}{\faMapMarker} \newline {Double compétence en Mathématiques et Informatique} \newline {\textbf{\color{gray!160} Mathématiques appliquées:}} Modélisation, simulation, optimisation, gestion des incertitudes et réduction de modèles, analyse et traitement de données (signaux, sons, images) \newline {\textbf{\color{gray!160} Informatique:}} Programmation, développement logiciel, calcul haute performance, machine learning, intelligence artificielle, devops et gestion de projet \\[3.2cm]
+    2021--2024 & {\small \textbf{Bachelor of Applied Mathematics}} \newline \textit{{\textbf{\color{gray!130} University of Strasbourg}}} \hspace{0.5em} \textcolor{cvred}{\faMapMarker} \newline { Fundamental bases in analysis (integration, function sequences and series), algebra, Fourier series, differential calculus, probability and statistics, as well as computer science.} \\  
 \end{tabular}
 
 
@@ -162,42 +171,47 @@ Adress : 13 rue du Maennelstein \\ Strasbourg, France
 
 
 
-\section*{Competencies}
-
-\subsection*{\small Master's competencies}
-Scientific computing, solving numerical and theoretical equations, algorithms and graphs, random models, data processing and exploitation, high-performance computing (MPI, OpenCL).
-\vspace{-0.9em}
-
-\subsection*{\small Tools}
-\setlength{\itemsep}{-0.35em}
-\begin{itemize}
-    \item \textbf{Github} : CI, branch management, pull requests, team collaboration
-    \item \textbf{Makefiles} : Automated compilation and unit testing (ctest, catch2)
-    \item \textbf{Docker} : Managing environments with Dockerfile
-\end{itemize}
-
-
-\vspace{-0.9em}
+\section*{Hard skills}
 
 \subsection*{\small Programming}
 \begin{minipage}[t]{0.35\textwidth}
 \footnotesize
-\begin{tabular}{r @{\hspace{0.5em}}l}
-    \bg{skilllabelcolour}{iconcolour}{Python} & \barrule{0.7}{0.5em}{red4} (3 years) - Modelling and Simulation \\[-0.35em]
-    \bg{skilllabelcolour}{iconcolour}{C++} & \barrule{0.5}{0.5em}{red3} (2 years) - Mathematical Applications and Parallel Computing \\[-0.35em]
-    \bg{skilllabelcolour}{iconcolour}{Latex} & \barrule{0.35}{0.5em}{red2} (1 year) - Reports and Project Presentations \\[-0.35em]
-    \bg{skilllabelcolour}{iconcolour}{C} & \barrule{0.25}{0.5em}{red1} (1 semester) - Operating system \\[-0.35em]
-    \bg{skilllabelcolour}{iconcolour}{Rust} &\barrule{0.25}{0.5em}{red1} (1 semester) - Scientific calculation and equation solving \\[-0.35em]
-    \bg{skilllabelcolour}{iconcolour}{Sql} &\barrule{0.25}{0.5em}{red1} (1 semester) - Database management \\[-0.35em]
-    \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.25}{0.5em}{red1} (1 semester) - Mathematical statistics \\
+\setlength{\fboxsep}{2pt}
+\begin{tabular}{l @{\hspace{0.5em}}l}    
+    \bg{red3}{iconcolour}{Python} \textit{{\textbf{\color{gray!180} \textasciitilde{}5 modules}}} - Data analysis, uncertainty quantification simulation, machine learning, AI \\[0.05cm]
+    \bg{red3}{iconcolour}{C++} \textit{{\textbf{\color{gray!180} \textasciitilde{}4 modules + projects}}} - PDE modelling, numerical simulation, parallel computing \\[0.05cm]
+    \bg{red2}{iconcolour}{Latex} - Reports and projects presentations \\[0.05cm]
+    \bg{red1}{iconcolour}{C} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Operating system \\[0.05cm]
+    \bg{red1}{iconcolour}{Rust} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Scientific computing, equation solving \\[0.05cm]
+    \bg{red1}{iconcolour}{Sql} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Database management \\[0.05cm]
+    \bg{red1}{iconcolour}{R} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Mathematical statistics \\
+    
 \end{tabular}
 \end{minipage}
+
+\subsection*{\small Tools}
+\setlength{\itemsep}{-0.35em}
+\begin{itemize} 
+    \item \textbf{GitHub:} CI workflows, branch management, pull requests, team collaboration \\[-0.4cm]
+    \item \textbf{CMake:} Automated compilation and unit testing (CTest, Catch2) \\[-0.4cm]
+    \item \textbf{Docker:} Environment management and image creation \\[-0.4cm]
+    \item \textbf{Paraview:} Visualization of simulations in 2D and 4D \\[-0.4cm]
+    \item \textbf{GMSH:} Mesh generation \\[-0.4cm]
+    \item \textbf{Feel++:} Finite Element C++ library for solving PDEs \\[-0.4cm]
+    \item \textbf{Eigen:} C++ linear algebra library \\[-0.4cm]
+    \item \textbf{JAX, PyTorch:} Machine learning and AI frameworks \\[-0.4cm]
+    \item \textbf{MPI, Kokkos, OpenMP:} Parallel computing for CPU/GPU
+\end{itemize}
+
+
+
+
 
 
 %CSMI (dans l'intro) : mettre double compétence en mathématiques et informatique !! faut le mettre !!
 
 %les regrouper : base de données (-> flux de données et gestion); IA (apprentissage); intégration continue; optimisation, simulation; travaux collaboratifs; calcul haute performance
-%mathématiques appliquées (appliquées pas trop le bon mot) modélisaion, simulation, optimisation, opération de ressource de calcul (technique de paralélisation CPU, GPU), donnée traitement de données gestion (données, sons, images), apprentissage et intel. artif.
+%mathématiques appliquées (appliquées pas trop le bon mot) modélisaion, simulation, optimisation, opération de ressource de calcul (MPI, technique de paralélisation CPU, GPU), donnée traitement de données gestion (données, sons, images), apprentissage et intel. artif.
 %niveau info: programmation, calcul parallèle (MPI, mutli thread GPU), devops (aspect de gestion de projet logiciel (Github), CICD, conteneurisation) 
 %"en fait on fait tout sauf la cybersécurité"
 %dans les Interest : applications mathématiques à la réalité un truc du genre
@@ -262,9 +276,10 @@ Scientific computing, solving numerical and theoretical equations, algorithms an
 \small
 \section*{Experiences}
 
-\begin{tabular}{r| >{\footnotesize}p{0.55\textwidth} c}
-    2022--today & {\small\textbf{ Mathematics Support}} \newline From middle school to post-baccalaureate, I help students with their homework and general understanding of their mathematics lessons. & \\[3.0em]
-    2018--today & {\small\textbf{ Figure Skating Instructor}} \newline I coach at the CSGSA ("Club des sports de glace de Strasbourg Alsace") at all levels, including Competitors, Baby Club, and Adults. & \\
+\begin{tabular}{>{\raggedleft\arraybackslash}p{2.5cm} | >{\footnotesize}p{0.55\textwidth} c}
+    \textit{{\textbf{\color{gray!130} June--Aug 2025 (2 months)}}} & {\small\textbf{M1 internship at Avnir energy}} \newline Developed a simulation tool in C++ using Feel++ to model fluid-structure coupling, enabling the simulation of acoustic wave propagation in a nuclear power plant tank following an impact on the wall.  & \\[1.05cm]
+    \textit{{\textbf{\color{gray!130} 2022--today}}} & {\small\textbf{ Mathematics Support}} \newline From middle school to post-baccalaureate, I help students with their homework and general understanding of their mathematics lessons. & \\[0.75cm]
+    \textit{{\textbf{\color{gray!130} 2018--today}}} & {\small\textbf{ Figure Skating Instructor}} \newline I coach at the CSGSA ("Club des sports de glace de Strasbourg Alsace") at all levels, including Competitors, Baby Club, and Adults. & \\
 \end{tabular}
 
 
