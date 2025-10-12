@@ -1,0 +1,230 @@
+\documentclass[lighthipster]{latex_for_CV/simplehipstercv}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\definecolor{red4}{rgb}{0.5, 0.1, 0} 
+\definecolor{red3}{rgb}{0.85, 0.25, 0.2}
+\definecolor{red2}{rgb}{0.95, 0.43, 0.35}
+\definecolor{red1}{rgb}{1, 0.6, 0.45}
+
+
+\definecolor{cvblue}{HTML}{003366}
+
+\usepackage{changepage}
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{My CV}
+\author{\LaTeX{} Hanna CHETOUANE}
+\date{05/10/2024}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+\vspace{-0.5cm}
+\simpleheader{headercolour}{Hanna}{CHETOUANE}{Étudiante en master de Mathématiques Appliquées - Calcul Scientifique et Mathématiques de l'Innovation}{white}
+
+
+
+%------------------------------------------------
+
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+
+\paracolbackgroundoptions
+
+
+\footnotesize
+{\setasidefontcolour
+\begin{center}
+    \roundpic{images/me.jpg}
+\end{center}
+
+\vspace{-0.8cm}
+\begin{adjustwidth}{-0.3cm}{-0.3cm}
+\begin{flushright}
+{\textbf{\color{gray!130} Je suis actuellement étudiante en Master 2 en Calcul Scientifique et Mathématiques de l'Innovation, et je m'intéresse à la modélisation mathématique des phénomènes physiques. Mon stage de Master 1 m'a permis de découvrir ce domaine plus en détail et m'a rendue curieuse et motivée pour explorer ses différentes applications. Je recherche actuellement un stage de fin d'études de 6 mois dans ce domaine.}}
+\end{flushright}
+\end{adjustwidth}
+
+\bigskip
+
+\flushright
+\bg{cvblue}{white}{ A propos de moi } \\[0.5em]
+\vspace{0.5em}
+
+Nationalité : Française  \\
+Naissance : 16/01/2003 \\
+Adresse : 13 rue du Maennelstein \\ Strasbourg, France
+
+
+\bigskip
+\bigskip
+\bigskip
+\bg{cvblue}{white}{Qualités} \\[0.5em]
+\vspace{0.5em}
+
+~•~ Bonnes aptitudes à la communication et au travail d'équipe \\
+~•~ Bonne capacité d'adaptation et sens de l'observation \\
+~•~ Persévérance et capacité à se dépasser
+
+\bigskip
+\bigskip
+\bigskip
+
+
+\bg{cvblue}{white}{Intérêts}\\[0.5em]
+\vspace{0.5em}
+
+~•~ Mathématiques et informatique \\
+~•~ Patinage artistique \\
+~•~ Nature et environnement \\
+
+\bigskip
+\bigskip
+\bigskip
+
+
+\bg{cvblue}{white}{Langues}\\[0.5em]
+\vspace{0.5em}
+\scriptsize
+\hspace*{-0.4cm}
+\begin{tabular}{c | c c}
+    \textbf{Français}  & {\textbf{\color{gray!140} C2}}  & Langue maternelle \\[0.5em]
+    \textbf{Anglais} & {\textbf{\color{gray!140} B1/B2}} & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{2}{\tiny} \\
+\end{tabular}
+\bigskip
+
+
+
+        
+
+\vspace{4em}
+
+\infobubble{\faPhone}{cvblue}{white}{0768186222}
+\infobubble{\faAt}{cvblue}{white}{\parbox{0.7\linewidth}{hanna.chetouane@\\etu.unistra.fr}}
+\infobubble{\faGithub}{cvblue}{white}{Hanna-che}
+
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+
+\vspace{1.5em}
+
+\section*{Formation}
+\begin{tabular}{r| p{0.5\textwidth}}
+    2024--aujourd'hui & {\small \textbf{Master CSMI (Calcul Scientifique et Mathématiques de l'Innovation)}} \newline \textit{{\textbf{\color{gray!130} Universitté de Strasbourg}}} \hspace{0.5em} \textcolor{cvred}{\faMapMarker} \newline {Double compétence en Mathématiques et Informatique} \newline {\textbf{\color{gray!160} Mathématiques appliquées:}} Modélisation, simulation, optimisation, gestion des incertitudes et réduction de modèles, analyse et traitement de données (signaux, sons, images) \newline {\textbf{\color{gray!160} Informatique:}} Programmation, développement logiciel, calcul haute performance, machine learning, intelligence artificielle, devops et gestion de projet \\[3.2cm]
+    2021--2024 & {\small \textbf{Licence de Mathématiques Appliquées}} \newline \textit{{\textbf{\color{gray!130} Université de Strasbourg}}} \hspace{0.5em} \textcolor{cvred}{\faMapMarker} \newline { Fondamentaux en analyse (intégration, suites et séries de fonctions), algèbre, séries de Fourier, calcul différentiel, probabilités et statistiques, ainsi qu'en informatique.} \\  
+\end{tabular}
+
+
+
+\vspace{0.3cm}
+
+
+
+\section*{Compétences}
+
+\subsection*{\small Programmation}
+\begin{minipage}[t]{0.35\textwidth}
+\footnotesize
+\setlength{\fboxsep}{2pt}
+\begin{tabular}{l @{\hspace{0.5em}}l}    
+    \bg{red3}{iconcolour}{Python} \textit{{\textbf{\color{gray!180} \textasciitilde{}5 modules}}} - Analyse des données, quantification des incertitudes, apprentissage automatique, IA \\[0.05cm]
+    \bg{red3}{iconcolour}{C++} \textit{{\textbf{\color{gray!180} \textasciitilde{}4 modules + projets}}} - Modélisation EDP, simulation numérique, calcul parallèle \\[0.05cm]
+    \bg{red2}{iconcolour}{Latex} - Rapports et présentations de projets \\[0.05cm]
+    \bg{red1}{iconcolour}{C} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Système d'exploitation \\[0.05cm]
+    \bg{red1}{iconcolour}{Rust} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Calcul scientifique, résolution d'équations \\[0.05cm]
+    \bg{red1}{iconcolour}{Sql} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Gestion de bases de données \\[0.05cm]
+    \bg{red1}{iconcolour}{R} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Statistiques mathématiques \\
+    
+\end{tabular}
+\end{minipage}
+
+\subsection*{\small Outils}
+\setlength{\itemsep}{-0.35em}
+\begin{itemize} 
+    \item \textbf{GitHub:} Intégration continue, gestion des branches, pull requests, collaboration en équipe \\[-0.4cm]
+    \item \textbf{CMake:} Compilation automatisée et tests unitaires (CTest, Catch2) \\[-0.4cm]
+    \item \textbf{Docker:} Gestion des environnements et création d'images Docker \\[-0.4cm]
+    \item \textbf{Paraview:} Visualisation des simulations en 2D et 3D \\[-0.4cm]
+    \item \textbf{GMSH:} Génération de maillages \\[-0.4cm]
+    \item \textbf{Feel++:} Bibliothèque C++ pour les éléments finis pour la résolution des EDP \\[-0.4cm]
+    \item \textbf{Eigen:} Bibliothèque C++ pour l'algèbre linéaire \\[-0.4cm]
+    \item \textbf{JAX, PyTorch:} Frameworks d'apprentissage automatique et d'IA \\[-0.4cm]
+    \item \textbf{MPI, Kokkos, OpenMP:} Calcul parallèle pour CPU/GPU
+\end{itemize}
+
+
+
+
+\vspace{0.3cm}
+
+
+
+\small
+\section*{Expériences}
+
+\begin{tabular}{>{\raggedleft\arraybackslash}p{2.5cm} | >{\footnotesize}p{0.55\textwidth} c}
+    \textit{{\textbf{\color{gray!130} June--Aug 2025 (2 mois)}}} & {\small\textbf{Stage M1 chez Avnir Energy}} \newline Développement d'un outil de simulation en C++ à l'aide de Feel++ pour modéliser un couplage fluide-structure, permettant la simulation de la propagation d'ondes acoustiques dans une cuve de centrale nucléaire, suite à un impact sur la paroi.  & \\[1.05cm]
+    \textit{{\textbf{\color{gray!130} 2022--aujourd'hui}}} & {\small\textbf{ Soutien en Mathématiques}} \newline Du collège au post-bac, j'aide les élèves dans leurs devoirs et leur compréhension générale de leurs cours de mathématiques. & \\[0.75cm]
+    \textit{{\textbf{\color{gray!130} 2018--aujourd'hui}}} & {\small\textbf{ Moniteur de Patinage Artistique}} \newline J'entraîne au CSGSA ("Club des sports de glace de Strasbourg Alsace") à tous les niveaux, y compris les compétiteurs, le Baby Club et les adultes. & \\
+\end{tabular}
+
+
+\vspace{0.7cm}
+
+\begin{minipage}[t]{0.35\textwidth}
+    
+\section*{Diplômes}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth} c}
+    2024 & {\textbf{\color{gray!140} Licence en Mathématiques Appliquées}} à l'Université de Strasbourg & {\color{cvgreen} \faGraduationCap} \\[2.4em]
+    2021 & {\textbf{\color{gray!140} Baccalauréat}} au lycée Sainte-Anne, Strasbourg & {\color{cvgreen} \faGraduationCap} \\
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificats}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth} c}
+    2024 & {\textbf{\color{gray!140} BF1}} (Premier certificat d'entraîneur de sports de glace) & {\color{cvgreen} \faCertificate} \\[1.5em]
+    2024 & {\textbf{\color{gray!140} PSC1}} (Prévention de niveau 1 et premiers secours) & {\color{cvgreen} \faCertificate} \\[1.5em]
+    2022 & {\textbf{\color{gray!140} Permis de conduire B}} & {\color{cvgreen} \faCertificate} \\
+\end{tabular}
+\end{minipage}
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+
+
+\end{paracol}
+
+\end{document}

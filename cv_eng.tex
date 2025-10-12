@@ -1,0 +1,296 @@
+% Compétences du master:  double compétence en mathématiques et informatique
+% EDP avec Modélisation, simulatin, optimisation, calcul haute perforamnce, (traitement) data signaux sons et images, machine learning et apprentissage
+%ya aussi incertitudes, ROM, Prétraitement et post-traitement, gestion des projets
+
+% Mettre en avant très clairement les compétences car pas vraiment d'expérience
+% C++, pyhton etc pas de barre mais volume horaire -> temps passé sur l'environnement
+
+% stage dans expérencience: modélisation, mise en oeuvre d'un couplage fluide strucrture, codé en dur en C++ (un truc du genre) avec Feel++ en 2D et en 3D ; modèle créé
+
+% peut mettre en référence prudhomme, demander si on peut mettre en référence les encadrants du stage (avec contact ?)
+
+% a mashup of hipstercv, friggeri and twenty cv
+% https://www.latextemplates.com/template/twenty-seconds-resumecv
+% https://www.latextemplates.com/template/friggeri-resume-cv
+
+\documentclass[lighthipster]{latex_for_CV/simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+\usepackage{xcolor}
+\usepackage{fontawesome}
+% \definecolor{darkcyan}{rgb}{0, 0.4, 0.78} 
+\definecolor{red4}{rgb}{0.5, 0.1, 0} 
+\definecolor{red3}{rgb}{0.85, 0.25, 0.2}
+\definecolor{red2}{rgb}{0.95, 0.43, 0.35}
+\definecolor{red1}{rgb}{1, 0.6, 0.45}
+
+
+\definecolor{cvblue}{HTML}{003366}
+
+\usepackage{changepage}
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{My CV}
+\author{\LaTeX{} Hanna CHETOUANE}
+\date{05/10/2024}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+\vspace{-0.5cm}
+\simpleheader{headercolour}{Hanna}{CHETOUANE}{Master's student in Applied Mathematics - Scientific Computing and Mathematics of Innovation}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\begin{center}
+    \roundpic{images/me.jpg}
+\end{center}
+
+\vspace{-0.8cm}
+\begin{adjustwidth}{-0.3cm}{-0.3cm}
+\begin{flushright}
+{\textbf{\color{gray!130} I am currently a Master's 2 student in Scientific Computing and Innovation Mathematics, and I am interested in the mathematical modeling of physical phenomena. My Master's 1 internship allowed me to discover this field in more detail and made me curious and motivated to explore its various opportunities. I am currently looking for a 6-month end-of-studies internship in this field.}}
+\end{flushright}
+\end{adjustwidth}
+
+\bigskip
+
+\flushright
+\bg{cvblue}{white}{ About me } \\[0.5em]
+\vspace{0.5em}
+
+Nationality : French  \\
+Birth : 01/16/2003 \\
+Adress : 13 rue du Maennelstein \\ Strasbourg, France
+
+
+\bigskip
+\bigskip
+\bigskip
+
+
+\bg{cvblue}{white}{Soft skills} \\[0.5em]
+\vspace{0.5em}
+
+~•~ Good communication and teamwork skills \\
+~•~ Good adaptability and observation skills \\
+~•~ Perseverance and ability to surpass myself
+
+\bigskip
+\bigskip
+\bigskip
+
+
+\bg{cvblue}{white}{Interests}\\[0.5em]
+\vspace{0.5em}
+
+~•~ Mathematics and computer science \\
+~•~ Figure skating \\
+~•~ Nature and environment \\
+
+\bigskip
+\bigskip
+\bigskip
+
+
+\bg{cvblue}{white}{Langages}\\[0.5em]
+\vspace{0.5em}
+\scriptsize
+\begin{tabular}{c | c c}
+    \textbf{French}  & {\textbf{\color{gray!140} C2}}  & Mother tongue \\[0.5em]
+    \textbf{English} & {\textbf{\color{gray!140} B1/B2}} & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{2}{\tiny} \\
+\end{tabular}
+\bigskip
+
+
+
+        
+
+\vspace{4em}
+
+\infobubble{\faPhone}{cvblue}{white}{0768186222}
+\infobubble{\faAt}{cvblue}{white}{\parbox{0.7\linewidth}{hanna.chetouane@\\etu.unistra.fr}}
+\infobubble{\faGithub}{cvblue}{white}{Hanna-che}
+
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+
+\vspace{1.5em}
+
+\section*{Curriculum}
+\begin{tabular}{r| p{0.5\textwidth}}
+    2024--today & {\small \textbf{CSMI Master (Scientific Computing and Mathematics of Innovation)}} \newline \textit{{\textbf{\color{gray!130} University of Strasbourg}}} \hspace{0.5em} \textcolor{cvred}{\faMapMarker} \newline {Dual competence in Mathematics and Computer Science} \newline {\textbf{\color{gray!160} Applied Mathematics:}} Modeling, simulation, optimization, uncertainty management and model reduction, data analysis and processing (signals, sounds, images) \newline {\textbf{Computer science:}} Programming, software development, high-performance computing, machine learning, artificial intelligence, devops, and project management \\[3.2cm]
+    2021--2024 & {\small \textbf{Bachelor of Applied Mathematics}} \newline \textit{{\textbf{\color{gray!130} University of Strasbourg}}} \hspace{0.5em} \textcolor{cvred}{\faMapMarker} \newline { Fundamental bases in analysis (integration, function sequences and series), algebra, Fourier series, differential calculus, probability and statistics, as well as computer science.} \\  
+\end{tabular}
+
+
+
+\vspace{0.3cm}
+
+
+
+\section*{Hard skills}
+
+\subsection*{\small Programming}
+\begin{minipage}[t]{0.35\textwidth}
+\footnotesize
+\setlength{\fboxsep}{2pt}
+\begin{tabular}{l @{\hspace{0.5em}}l}    
+    \bg{red3}{iconcolour}{Python} \textit{{\textbf{\color{gray!180} \textasciitilde{}5 modules}}} - Data analysis, uncertainty quantification simulation, machine learning, AI \\[0.05cm]
+    \bg{red3}{iconcolour}{C++} \textit{{\textbf{\color{gray!180} \textasciitilde{}4 modules + projects}}} - PDE modelling, numerical simulation, parallel computing \\[0.05cm]
+    \bg{red2}{iconcolour}{Latex} - Reports and projects presentations \\[0.05cm]
+    \bg{red1}{iconcolour}{C} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Operating system \\[0.05cm]
+    \bg{red1}{iconcolour}{Rust} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Scientific computing, equation solving \\[0.05cm]
+    \bg{red1}{iconcolour}{Sql} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Database management \\[0.05cm]
+    \bg{red1}{iconcolour}{R} \textit{{\textbf{\color{gray!180} \textasciitilde{}1 module}}} - Mathematical statistics \\
+    
+\end{tabular}
+\end{minipage}
+
+\subsection*{\small Tools}
+\setlength{\itemsep}{-0.35em}
+\begin{itemize} 
+    \item \textbf{GitHub:} CI workflows, branch management, pull requests, team collaboration \\[-0.4cm]
+    \item \textbf{CMake:} Automated compilation and unit testing (CTest, Catch2) \\[-0.4cm]
+    \item \textbf{Docker:} Environment management and image creation \\[-0.4cm]
+    \item \textbf{Paraview:} Visualization of simulations in 2D and 4D \\[-0.4cm]
+    \item \textbf{GMSH:} Mesh generation \\[-0.4cm]
+    \item \textbf{Feel++:} Finite Element C++ library for solving PDEs \\[-0.4cm]
+    \item \textbf{Eigen:} C++ linear algebra library \\[-0.4cm]
+    \item \textbf{JAX, PyTorch:} Machine learning and AI frameworks \\[-0.4cm]
+    \item \textbf{MPI, Kokkos, OpenMP:} Parallel computing for CPU/GPU
+\end{itemize}
+
+
+
+
+
+
+%CSMI (dans l'intro) : mettre double compétence en mathématiques et informatique !! faut le mettre !!
+
+%les regrouper : base de données (-> flux de données et gestion); IA (apprentissage); intégration continue; optimisation, simulation; travaux collaboratifs; calcul haute performance
+%mathématiques appliquées (appliquées pas trop le bon mot) modélisaion, simulation, optimisation, opération de ressource de calcul (MPI, technique de paralélisation CPU, GPU), donnée traitement de données gestion (données, sons, images), apprentissage et intel. artif.
+%niveau info: programmation, calcul parallèle (MPI, mutli thread GPU), devops (aspect de gestion de projet logiciel (Github), CICD, conteneurisation) 
+%"en fait on fait tout sauf la cybersécurité"
+%dans les Interest : applications mathématiques à la réalité un truc du genre
+%mettre les différents projets ??
+%mettre le cv dans notre propre organisation -> fork pour déplacer ailleur
+%mettre un "about me" qui dit dans quel domaine je recherche du travail, dans quels domaines en particulier je m'intéresse le plus
+%stages -> compétences qu'on a obtenu 
+%CREER UN COMPTE LINKDIN !!!
+
+%pour la section programming : on peut ajouter la fréquence d'utilisation
+
+%langages : niveau d'anglais mettre seulement si ca existe du coup C2 et B1 bof
+
+%PETIT TEXT INTRODUCTIF (à adapter au travail qu'on cherche)
+
+% -> hard skills et soft skills
+
+%dans le about me -> mettre les skills et comment je les ai eu (au travers de stages)
+
+%modélisation et simulation (ce que j'ai mis avec les graphes ca va dans ca)
+
+%experiences à mettre plus haut
+
+%Github ca marche aussi avec Gitlab -> Git/Github
+
+
+
+%Makefiles -> mettre plutot cmake   : processus de simulation (ou jsplus le mot) moderne
+
+%Programming : fréquences et mettre utilisation de manière journalière (daily pour C++, Python) ou nb d'heures par semestre + temps à la maison rentre en compte
+
+
+
+
+\vspace{0.3cm}
+
+
+
+\small
+\section*{Experiences}
+
+\begin{tabular}{>{\raggedleft\arraybackslash}p{2.5cm} | >{\footnotesize}p{0.55\textwidth} c}
+    \textit{{\textbf{\color{gray!130} June--Aug 2025 (2 months)}}} & {\small\textbf{M1 internship at Avnir energy}} \newline Developed a simulation tool in C++ using Feel++ to model fluid-structure coupling, enabling the simulation of acoustic wave propagation in a nuclear power plant tank following an impact on the wall.  & \\[1.05cm]
+    \textit{{\textbf{\color{gray!130} 2022--today}}} & {\small\textbf{ Mathematics Support}} \newline From middle school to post-baccalaureate, I help students with their homework and general understanding of their mathematics lessons. & \\[0.75cm]
+    \textit{{\textbf{\color{gray!130} 2018--today}}} & {\small\textbf{ Figure Skating Instructor}} \newline I coach at the CSGSA ("Club des sports de glace de Strasbourg Alsace") at all levels, including Competitors, Baby Club, and Adults. & \\
+\end{tabular}
+
+
+\vspace{0.7cm}
+
+\begin{minipage}[t]{0.35\textwidth}
+    
+\section*{Degrees}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth} c}
+    2024 & {\textbf{\color{gray!140} Bachelor of Applied Mathematics}} in University of Strasbourg & {\color{cvgreen} \faGraduationCap} \\[2.4em]
+    2021 & {\textbf{\color{gray!140} Baccalaureate}} at Sainte-Anne high school, Strasbourg & {\color{cvgreen} \faGraduationCap} \\
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificates}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth} c}
+    2024 & {\textbf{\color{gray!140} BF1}} (first ice sports coaching certificate) & {\color{cvgreen} \faCertificate} \\[1.5em]
+    2024 & {\textbf{\color{gray!140} PSC1}} (Level 1 prevention and first aid) & {\color{cvgreen} \faCertificate} \\[1.5em]
+    2022 & {\textbf{\color{gray!140} B driving license}} & {\color{cvgreen} \faCertificate} \\
+\end{tabular}
+\end{minipage}
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+
+
+\end{paracol}
+
+\end{document}
